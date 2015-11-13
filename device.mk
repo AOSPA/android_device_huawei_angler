@@ -398,4 +398,4 @@ PRODUCT_VENDOR_VERITY_PARTITION := /dev/block/platform/soc.0/f9824900.sdhci/by-n
 $(call inherit-product, build/target/product/verity.mk)
 
 # vendor blobs
-$(call inherit-product, vendor/huawei/angler/angler-vendor.mk
+$(call inherit-product, vendor/huawei/angler/angler-vendor.mk)
