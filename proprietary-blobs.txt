@@ -17,15 +17,19 @@
 #
 # <src relative to root of extracted filesystem>:<dst relative to system>
 
-#-system/app/ims/ims.apk
-vendor/lib64/libimscamera_jni.so:system/app/ims/lib64/libimscamera_jni.so
-vendor/lib64/libimsmedia_jni.so:system/app/ims/lib64/libimsmedia_jni.so
--system/app/qcrilmsgtunnel/qcrilmsgtunnel.apk
--system/app/TimeService/TimeService.apk
 -system/app/DMAgent/DMAgent.apk
 -system/priv-app/DCMO/DCMO.apk
 -system/priv-app/DMService/DMService.apk
 -system/priv-app/SprintDM/SprintDM.apk
+-vendor/app/ims/ims.apk:system/app/ims/ims.apk
+vendor/lib64/libimscamera_jni.so:system/app/ims/lib/arm64/libimscamera_jni.so
+vendor/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so
+vendor/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so
+vendor/lib64/libimsmedia_jni.so:system/app/ims/lib/arm64/libimsmedia_jni.so
+vendor/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so
+vendor/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so
+-system/app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+-system/app/TimeService/TimeService.apk
 system/bin/ATFWD-daemon
 system/bin/cnd
 system/bin/diag_callback_client
@@ -41,7 +45,6 @@ system/bin/imscmservice
 system/bin/imsdatadaemon
 system/bin/imsqmidaemon
 system/bin/ims_rtp_daemon
-system/bin/InputEventFind
 system/bin/irsc_util
 system/bin/loc_launcher
 system/bin/mm-pp-daemon
@@ -112,6 +115,7 @@ system/etc/sap.conf
 system/framework/com.google.widevine.software.drm.jar
 system/framework/qcrilhook.jar
 system/lib64/hw/gps.msm8994.so
+#system/lib64/hw/nfc_nci.angler.so
 system/lib64/libgps.utils.so
 system/lib64/libloc_api_v02.so
 system/lib64/libloc_core.so
@@ -121,6 +125,7 @@ system/lib64/libManufacture.so
 system/lib64/libtinyxml.so
 system/lib/hw/camera.msm8994.so
 system/lib/hw/gps.msm8994.so
+#system/lib/hw/nfc_nci.angler.so
 system/lib/libdmengine.so
 system/lib/libdmjavaplugin.so
 system/lib/libgps.utils.so
