@@ -18,18 +18,25 @@
 # <src relative to root of extracted filesystem>:<dst relative to system>
 
 -system/app/DMAgent/DMAgent.apk
--system/priv-app/DCMO/DCMO.apk
--system/priv-app/DMService/DMService.apk
--system/priv-app/SprintDM/SprintDM.apk
 -vendor/app/ims/ims.apk:system/app/ims/ims.apk
+-system/app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+-system/app/TimeService/TimeService.apk
+-system/app/CABLService/CABLService.apk
+-system/app/HwSarControlService/HwSarControlService.apk
+-system/app/Tycho/Tycho.apk
+-system/priv-app/DCMO/DCMO.apk
+-system/priv-app/SprintDM/SprintDM.apk
+-system/priv-app/CNEService/CNEService.apk
+-system/priv-app/GCS/GCS.apk
+-system/priv-app/HiddenMenu/HiddenMenu.apk
+-system/priv-app/HotwordEnrollment/HotwordEnrollment.apk
+-system/priv-app/CallStatistics/CallStatistics.apk
 vendor/lib64/libimscamera_jni.so:system/app/ims/lib/arm64/libimscamera_jni.so
 vendor/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so
 vendor/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so
 vendor/lib64/libimsmedia_jni.so:system/app/ims/lib/arm64/libimsmedia_jni.so
 vendor/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so
 vendor/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so
--system/app/qcrilmsgtunnel/qcrilmsgtunnel.apk
--system/app/TimeService/TimeService.apk
 system/bin/ATFWD-daemon
 system/bin/cnd
 system/bin/diag_callback_client
@@ -62,7 +69,7 @@ system/bin/pm-proxy
 system/bin/pm-service
 system/bin/port-bridge
 system/bin/qjpeg-dma-test
-system/bin/qmuxd
+#system/bin/qmuxd
 system/bin/radish
 system/bin/rmt_storage
 system/bin/ssr_setup
@@ -139,5 +146,4 @@ system/lib/libmm-qcamera.so
 system/lib/libqomx_core.so
 system/lib/libtinyxml.so
 system/lib/soundfx/libfmas.so
--system/priv-app/CNEService/CNEService.apk
 system/xbin/wlutil
