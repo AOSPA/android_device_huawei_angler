@@ -23,11 +23,9 @@
 -system/app/TimeService/TimeService.apk
 -system/app/CABLService/CABLService.apk
 -system/app/HwSarControlService/HwSarControlService.apk
--system/app/Tycho/Tycho.apk
 -system/priv-app/DCMO/DCMO.apk
 -system/priv-app/SprintDM/SprintDM.apk
 -system/priv-app/CNEService/CNEService.apk
--system/priv-app/GCS/GCS.apk
 -system/priv-app/HiddenMenu/HiddenMenu.apk
 -system/priv-app/HotwordEnrollment/HotwordEnrollment.apk
 -system/priv-app/CallStatistics/CallStatistics.apk
@@ -122,7 +120,6 @@ system/etc/sap.conf
 system/framework/com.google.widevine.software.drm.jar
 system/framework/qcrilhook.jar
 system/lib64/hw/gps.msm8994.so
-#system/lib64/hw/nfc_nci.angler.so
 system/lib64/libgps.utils.so
 system/lib64/libloc_api_v02.so
 system/lib64/libloc_core.so
@@ -132,7 +129,6 @@ system/lib64/libManufacture.so
 system/lib64/libtinyxml.so
 system/lib/hw/camera.msm8994.so
 system/lib/hw/gps.msm8994.so
-#system/lib/hw/nfc_nci.angler.so
 system/lib/libdmengine.so
 system/lib/libdmjavaplugin.so
 system/lib/libgps.utils.so
