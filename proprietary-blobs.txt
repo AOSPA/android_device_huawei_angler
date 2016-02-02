@@ -67,7 +67,7 @@ system/bin/pm-proxy
 system/bin/pm-service
 system/bin/port-bridge
 system/bin/qjpeg-dma-test
-#system/bin/qmuxd
+system/bin/qmuxd
 system/bin/radish
 system/bin/rmt_storage
 system/bin/ssr_setup
