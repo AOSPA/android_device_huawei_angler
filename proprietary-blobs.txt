@@ -17,7 +17,7 @@
 #
 # <src relative to root of extracted filesystem>:<dst relative to system>
 
--system/app/DMAgent/DMAgent.apk
+#-system/app/DMAgent/DMAgent.apk
 -vendor/app/ims/ims.apk:system/app/ims/ims.apk
 -system/app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -system/app/TimeService/TimeService.apk
@@ -120,6 +120,7 @@ system/etc/sap.conf
 system/framework/com.google.widevine.software.drm.jar
 system/framework/qcrilhook.jar
 system/lib64/hw/gps.msm8994.so
+system/lib64/hw/audio.primary.msm8994.so
 system/lib64/libgps.utils.so
 system/lib64/libloc_api_v02.so
 system/lib64/libloc_core.so
@@ -129,6 +130,7 @@ system/lib64/libManufacture.so
 system/lib64/libtinyxml.so
 system/lib/hw/camera.msm8994.so
 system/lib/hw/gps.msm8994.so
+system/lib/hw/audio.primary.msm8994.so
 system/lib/libdmengine.so
 system/lib/libdmjavaplugin.so
 system/lib/libgps.utils.so
