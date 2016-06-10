@@ -132,7 +132,6 @@
 /system/lib/libtinyxml.so
 /system/lib/soundfx/libfmas.so
 /system/priv-app/CallStatistics/CallStatistics.apk
-/system/priv-app/CellBroadcastReceiver/CellBroadcastReceiver.apk
 /system/priv-app/CNEService/CNEService.apk
 /system/priv-app/ConnMO/ConnMO.apk
 /system/priv-app/DCMO/DCMO.apk
