@@ -16,10 +16,12 @@
 
 /system/app/CABLService/CABLService.apk
 /system/app/HwMMITest/HwMMITest.apk
+/system/app/HwMMITest/lib/arm64/libManufacture.so
 /system/app/HwSarControlService/HwSarControlService.apk
 /system/app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 /system/app/TimeService/TimeService.apk
 /system/bin/ATFWD-daemon
+/system/bin/applypatch
 /system/bin/cnd
 /system/bin/diag_callback_client
 /system/bin/diag_dci_sample
