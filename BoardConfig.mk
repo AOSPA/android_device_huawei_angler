@@ -131,7 +131,13 @@ WIFI_DRIVER_FW_PATH_PARAM := "/sys/module/bcmdhd/parameters/firmware_path"
 WIFI_DRIVER_FW_PATH_STA := "/vendor/firmware/fw_bcmdhd.bin"
 WIFI_DRIVER_FW_PATH_AP := "/vendor/firmware/fw_bcmdhd_apsta.bin"
 
-# Include an expanded selection of fonts
-EXTENDED_FONT_FOOTPRINT := true
+#GPS
+BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := $(TARGET_BOARD_PLATFORM)
+BOARD_VENDOR_QCOM_LOC_PDK_FEATURE_SET := true
+
+# Testing related defines
+BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/angler-setup.sh
+
+USE_CLANG_PLATFORM_BUILD := true
 
 -include vendor/huawei/angler/BoardConfigVendor.mk
