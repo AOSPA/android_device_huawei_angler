@@ -420,5 +420,4 @@
          * The device must be provisioned with HDCP keys (for protected content).
     -->
     <bool name="config_enableWifiDisplay">true</bool>
->>>>>>> android-7.0.0_r1
 </resources>
