@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da7095c5_39f80fe5",
+        "filename": "proprietary-blobs.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2016-09-21T04:13:09Z",
+      "side": 1,
+      "message": "ProjectFi compatibility belongs with gapps",
+      "revId": "a832d462a42f0816297bd838d808025eeccdc9ce",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_dcaea1e7",
+        "filename": "proprietary-blobs.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2016-09-21T04:13:09Z",
+      "side": 1,
+      "message": "Also belongs with gapps",
+      "revId": "a832d462a42f0816297bd838d808025eeccdc9ce",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
