@@ -29,6 +29,11 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53.a57
 
+TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_CONFIG := angler_defconfig
+TARGET_KERNEL_SOURCE := kernel/huawei/angler
+TARGET_KERNEL_APPEND_DTB := true
+
 ENABLE_CPUSETS := true
 
 BOARD_KERNEL_BASE        := 0x00000000
