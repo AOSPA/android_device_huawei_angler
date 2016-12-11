@@ -1,11 +1,3 @@
-# Network utilities (radio process)
-type netmgrd, domain, domain_deprecated;
-type netmgrd_exec, exec_type, file_type;
-
-# Started by init
-init_daemon_domain(netmgrd)
-
-net_domain(netmgrd)
 allow netmgrd self:capability { setuid setgid net_admin net_raw dac_override };
 dontaudit netmgrd self:capability setpcap;
 
@@ -15,7 +7,6 @@ allow netmgrd self:netlink_socket create_socket_perms;
 allow netmgrd self:netlink_route_socket nlmsg_write;
 allow netmgrd self:netlink_xfrm_socket { create_socket_perms nlmsg_write nlmsg_read};
 allow netmgrd self:socket create_socket_perms;
-allow netmgrd netd_socket:sock_file w_file_perms;
 allow netmgrd net_data_file:dir r_dir_perms;
 allow netmgrd net_data_file:file r_file_perms;
 
@@ -38,6 +29,3 @@ userdebug_or_eng(`
 
 # execute toybox/toolbox
 allow netmgrd toolbox_exec:file rx_file_perms;
-
-#Allow netmgrd to use wakelock
-wakelock_use(netmgrd)

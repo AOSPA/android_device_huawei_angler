@@ -1,6 +1,5 @@
 binder_call(mediaserver, rild)
 # send data to camera socket
-allow mediaserver camera_data_file:sock_file write;
 allow mediaserver camera:unix_stream_socket connectto;
 allow mediaserver camera:unix_dgram_socket sendto;
 #read/write /dev/media[0-N]
