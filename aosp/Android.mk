@@ -1,6 +1,4 @@
 # Create links from /vendor to /system for AOSP without vendor builds
-ifneq (,$(filter aosp_angler, $(TARGET_PRODUCT)))
-
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
@@ -28,5 +26,3 @@ LOCAL_POST_INSTALL_CMD := \
     ln -sf /vendor/bin/ims_rtp_daemon $(PRODUCT_OUT)/system/bin/ims_rtp_daemon; }
 
 include $(BUILD_PHONY_PACKAGE)
-
-endif # aosp_angler
