@@ -1,0 +1,2 @@
+allow priv_app ims_exec:lnk_file getattr;
+allow priv_app imscm_exec:lnk_file getattr;

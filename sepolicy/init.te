@@ -1,0 +1,2 @@
+allow init ims_exec:lnk_file read;
+allow init imscm_exec:lnk_file read;
