@@ -10,3 +10,5 @@ allow rild sysfs_lcd_mipi:file rw_file_perms;
 allow rild time:unix_stream_socket connectto;
 
 allow rild per_mgr_service:service_manager find;
+
+allow rild qmux:unix_stream_socket connectto;

@@ -29,3 +29,5 @@ userdebug_or_eng(`
 
 # execute toybox/toolbox
 allow netmgrd toolbox_exec:file rx_file_perms;
+
+allow netmgrd qmux:unix_stream_socket connectto;

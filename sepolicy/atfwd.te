@@ -1,0 +1,1 @@
+allow atfwd qmux:unix_stream_socket connectto;

@@ -1,2 +1,6 @@
+allow priv_app device:dir { open read };
+
 allow priv_app ims_exec:lnk_file getattr;
 allow priv_app imscm_exec:lnk_file getattr;
+
+allow priv_app sysfs_mac_address:file { open read };

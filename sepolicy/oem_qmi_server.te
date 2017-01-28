@@ -18,3 +18,7 @@ userdebug_or_eng(`
 ')
 
 qmux_socket(oem_qmi_server)
+
+
+allow oem_qmi_server qmux:unix_stream_socket connectto;
+allow oem_qmi_server smem_log_device:chr_file { ioctl open read write };
