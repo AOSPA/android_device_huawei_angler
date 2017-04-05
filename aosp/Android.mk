@@ -23,12 +23,6 @@ LOCAL_POST_INSTALL_CMD := \
     ln -sf /vendor/bin/imscmservice $(PRODUCT_OUT)/system/bin/imscmservice; \
     ln -sf /vendor/bin/imsdatadaemon $(PRODUCT_OUT)/system/bin/imsdatadaemon; \
     ln -sf /vendor/bin/imsqmidaemon $(PRODUCT_OUT)/system/bin/imsqmidaemon; \
-    ln -sf /vendor/bin/ims_rtp_daemon $(PRODUCT_OUT)/system/bin/ims_rtp_daemon; \
-    mkdir -p $(PRODUCT_OUT)/system/vendor/firmware; \
-    ln -sf /vendor/firmware/fingerpr.mdt $(PRODUCT_OUT)/system/vendor/firmware/fingerpr.mdt; \
-    ln -sf /vendor/firmware/fingerpr.b00 $(PRODUCT_OUT)/system/vendor/firmware/fingerpr.b00; \
-    ln -sf /vendor/firmware/fingerpr.b01 $(PRODUCT_OUT)/system/vendor/firmware/fingerpr.b01; \
-    ln -sf /vendor/firmware/fingerpr.b02 $(PRODUCT_OUT)/system/vendor/firmware/fingerpr.b02; \
-    ln -sf /vendor/firmware/fingerpr.b03 $(PRODUCT_OUT)/system/vendor/firmware/fingerpr.b03; }
+    ln -sf /vendor/bin/ims_rtp_daemon $(PRODUCT_OUT)/system/bin/ims_rtp_daemon; }
 
 include $(BUILD_PHONY_PACKAGE)
