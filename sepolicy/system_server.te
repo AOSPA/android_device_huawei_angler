@@ -45,3 +45,6 @@ allow system_server graphics_device:chr_file rw_file_perms;
 allow system_server sysfs_thermal:file write;
 
 allow system_server qmux:unix_stream_socket connectto;
+
+allow system_server unlabeled:file unlink;
+
