@@ -9,3 +9,4 @@ allow system_app cne_service:service_manager add;
 allow system_app ims:binder call;
 
 allow system_app fingerprintd:binder call;
+
