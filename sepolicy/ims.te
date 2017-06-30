@@ -11,3 +11,6 @@ allow ims self:netlink_route_socket { create_socket_perms nlmsg_write nlmsg_read
 
 allow ims sysfs_msm_subsys:dir r_dir_perms;
 allow ims sysfs_msm_subsys:lnk_file r_file_perms;
+
+# Allow ims to connect to qmux sockets
+allow ims qmux:unix_stream_socket connectto;

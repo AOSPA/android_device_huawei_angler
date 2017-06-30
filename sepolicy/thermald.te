@@ -27,5 +27,5 @@ set_prop(thermald, powerctl_prop)
 
 allow thermald qmux:unix_stream_socket connectto;
 allow thermald smem_log_device:chr_file { ioctl open read write };
-allow thermald sysfs_mpdecision:file { getattr open read };
+allow thermald sysfs_mpdecision:file { getattr open read write };
 allow thermald thermal_device:chr_file { ioctl open read write };
