@@ -28,8 +28,6 @@ on init
     mkdir /persist 0771 system system
     mkdir /firmware 0771 system system
 
-    symlink /sdcard /storage/sdcard0
-
     # Create UDS structure for base VR services.
     mkdir /dev/socket/pdx 0775 system system
     mkdir /dev/socket/pdx/system 0775 system system
