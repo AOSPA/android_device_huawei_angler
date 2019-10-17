@@ -49,3 +49,5 @@ allow init sysfs_dm:file { open write };
 allow init perfd:unix_stream_socket connectto;
 allow init perfd_data_file:sock_file write;
 
+# for bind mount over /apex/com.android.media.swcodec/etc/ld.config.txt
+allow init system_file:file mounton;
