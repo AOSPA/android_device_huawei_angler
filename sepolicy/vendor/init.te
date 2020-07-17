@@ -19,7 +19,7 @@ allow init sysfs_battery:lnk_file rw_file_perms;
 # sys tune
 allow init sysfs_tune:file rw_file_perms;
 # bluetooth
-allow init sysfs_bluetooth_writable:file { setattr read };
+allow init sysfs_bluetooth_writable:file write;
 # cpu
 allow init sysfs_cpu:file setattr;
 allow init sysfs_thermal:file setattr;
